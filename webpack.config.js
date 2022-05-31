@@ -11,9 +11,8 @@ module.exports =
 
 	output: 
     {
-    	path: path.resolve(__dirname, "./dist"),
+    	path: path.join(__dirname, "/dist"),
     	filename: "bundle.js",
-    	publicPath: "/"
     },
 
 	resolve: {
@@ -23,8 +22,7 @@ module.exports =
 	plugins:
         [
         	new HtmlWebpackPlugin({
-        		template: "./public/index.html",
-        		filename: "./index.html",
+        		template: "./public/index.html"
         	})
         ],
 
