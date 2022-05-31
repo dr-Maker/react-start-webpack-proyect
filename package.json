@@ -4,7 +4,9 @@
   "description": "Test for Vercel webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
   },
   "keywords": [
     "webpack",
@@ -14,6 +16,19 @@
   "author": "Jonathan Venegas",
   "license": "ISC",
   "dependencies": {
-    "webpack": "5.72.1"
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.2",
+    "@babel/preset-env": "7.18.2",
+    "@babel/preset-react": "7.17.12",
+    "babel-loader": "8.2.5",
+    "eslint": "8.16.0",
+    "eslint-plugin-react": "^7.30.0",
+    "html-webpack-plugin": "5.5.0",
+    "webpack": "5.72.1",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "4.9.0"
   }
 }
