@@ -1,0 +1,19 @@
+{
+  "name": "test-proyect-webpack",
+  "version": "1.0.0",
+  "description": "Test for Vercel webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "web",
+    "test"
+  ],
+  "author": "Jonathan Venegas",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "5.72.1"
+  }
+}
